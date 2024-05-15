@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/stylessss.1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backFundo">
+        <img class ="imgBack"src="./assets/fundo.jpg" alt="">
+        <div class="fundo">
+            <div class="backgroundReservas">
+                <div class="produtoReservar1">
+                   <img class="img1"  src="./assets/download.jpg" alt=""> 
+                    <div class="nomeDescricao">  
+                        <h2 class="nomeProduto1">Misto de Cozidos</h2>
+                            <div class="descricao1">
+                                <h4 class="descricaoText">Misto de carnes cozidas com cenoura e milho</h4>
+                            </div>
+                            <button id="pedirBotao">Pedir</button>
+                    </div> 
+                </div>
+                <div class="opcoesProduto">
+                    <h4 class="descricaoText">Deseja alterar algum item? <input type="checkbox" onclick="mudar()"> </h4>
+                </div>
+                <script>
+                    function mudar(){
+                        window.location.href="./reservas1.html"
+                    }
+                </script>
+                <h3>Selecione os Itens que deseja no seu prato:</h3>
+                <div class="mainAlteracao">
+                    <div class="alteracaoItens">
+                        <h4><input type="checkbox"> Mandioca </h4>
+                        <h4><input type="checkbox"> Caldo Kinor </h4>
+                        <h4><input type="checkbox"> Cenoura </h4>
+                        <h4><input type="checkbox"> Milho </h4>
+                        <h4><input type="checkbox"> Batata </h4>
+                        <h4><input type="checkbox"> Cheiro Verde </h4>
+                        <h4><input type="checkbox"> Pimenta de Cheiro </h4>
+                        <h4><input type="checkbox"> Farinha </h4>
+                    </div>  
+                </div>
+            </div>   
+        </div>
+    </div>
+    
+</body>
+</html>
