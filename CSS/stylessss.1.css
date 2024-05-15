@@ -1,0 +1,87 @@
+body {
+    background:#ff8400f1;
+    overflow-x: hidden;
+    width: 100%;
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: "Comic Neue", cursive;
+    font-size: large;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(249, 249, 249);
+    box-sizing: border-box;
+}
+
+.imgBack{
+    width: 101%;
+    height: 101%;
+    position: fixed;
+    z-index:-5 ;
+    opacity:10%;
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 967.58px;
+}
+
+.backgroundReservas{
+    background-color: rgba(0, 0, 0, 0.741);
+    width: 40%;
+    height: 550px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.produtoReservar1{
+    padding: 20px;
+    display: flex;
+}
+
+.nomeDescricao{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nomeProduto1{
+    height: 0%;
+}
+
+.descricao1{
+    display: flex;
+}
+
+.descricaoText{
+    font-size: small;
+    color: rgba(255, 255, 255, 0.645);
+}
+.img1{
+    border-radius: 20px 0px 0px 30px;
+    max-width: 50%;
+}
+
+#pedirBotao{
+    color: black;
+    background:#ff8400f1;
+    height: 50px;
+    border: none;
+    border-radius: 0px 15px 0px 0px
+}
+
+.mainAlteracao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,15 @@
+.especial1 {
+    background: gray;
+    width: 30%;
+    display: flex;
+    margin-top:100px ;
+    flex-direction: column;
+    background: #ffa500;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-top: 35px;
+}
+.pratosesp{
+    display: flex;
+
+}
