@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Login</title>
+</head>
+<center>
+   
+        <div class="backFundo2"><img class ="imgBack"src="./assets/fundo.jpg" alt="">
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>       
+    <div class="tituloCadastro"><h1 class="tituloCadastroH1">Login</h1></div>
+    <div class="backgroundCadastro">
+        <div class="inputsCadastro">
+            <form action="./index.html" method="post">
+            <input type="text" name="email" class="email" placeholder="Seu E-mail"></input>
+            <input type="password" name="senha" class="senha" placeholder="Sua Senha"></input>
+            <button type="submit" id="botao" onclick="cadastro()">Entrar</button>
+        </form>
+            <a href="./cadastro.html">Ainda não tem uma conta?</a>
+        </div>
+    </div>
+    <script>
+        function cadastro(){
+            window.location.href="./index.html"
+        }
+    </script>
+
+</center>
+</body>
+</html>
